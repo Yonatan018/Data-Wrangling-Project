@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:donl="https://data.overheid.nl/dcat.rdf#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:v="http://www.w3.org/2006/vcard/"
+>
+  <rdf:Description rdf:about="https://data.overheid.nl/dataset/3500-onderwijsuitgaven--kerncijfers">
+    <adms:identifier rdf:resource="https://data.overheid.nl/dataset/3500-onderwijsuitgaven--kerncijfers"/>
+    <donl:identifier rdf:resource="https://opendata.cbs.nl/ODataApi/OData/70901ned"/>
+    <donl:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <adms:identifier rdf:resource="https://data.overheid.nl/data/dataset/3500-onderwijsuitgaven--kerncijfers"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/NEVER"/>
+    <donl:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+    <dcat:landingPage rdf:resource="https://opendata.cbs.nl/statline/portal.html?_la=nl&amp;_catalog=CBS&amp;tableId=70901ned"/>
+    <dcat:contactPoint rdf:nodeID="dataset.3500-onderwijsuitgaven--kerncijfers.contactPoint"/>
+    <donl:publisher rdf:resource="http://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek"/>
+    <dct:description xml:lang="nl">Deze tabel geeft een overzicht van de Nederlandse uitgaven aan regulier 
+onderwijs. De overheidsuitgaven aan onderwijs zijn verdeeld in de uitgaven 
+aan onderwijsinstellingen en de uitgaven aan huishoudens (studenten en/of 
+ouders), bedrijven en non-profit instellingen. Daarnaast worden de 
+onderwijsuitgaven van private partijen (huishoudens, bedrijven, non-profit 
+instellingen en organisaties in het buitenland) aan onderwijsinstellingen 
+getoond. Alleen huishoudens hebben ook onderwijsuitgaven buiten de 
+onderwijsinstellingen om. De gepresenteerde cijfers zijn berekend volgens 
+door de OESO (Organisatie voor Economische Samenwerking en Ontwikkeling) 
+gestandaardiseerde definities.
+
+Gegevens beschikbaar vanaf: 1995
+Frequentie: stopgezet
+
+Status van de cijfers: 
+De uitkomsten van 1995 tot en met 2007 zijn definitief, de uitkomsten voor 
+2008 zijn voorlopig.
+
+Wijzigingen per 7 december 2009:
+Er zijn gegevens over 2008 toegevoegd en bijstellingen voor 2007 
+doorgevoerd.
+
+Wanneer komen er nieuwe cijfers?
+Niet van toepassing</dct:description>
+    <dcat:distribution rdf:nodeID="dataset.3500-onderwijsuitgaven--kerncijfers.distribution.2"/>
+    <donl:authority rdf:resource="http://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek"/>
+    <donl:metadataLanguage rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/c501398a-b9b9-43a6-80b4-4af730bd1733"/>
+    <donl:status rdf:resource="http://data.overheid.nl/status/beschikbaar"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2009-12-07T09:30:00</dct:modified>
+    <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.nl"/>
+    <dcat:distribution rdf:nodeID="dataset.3500-onderwijsuitgaven--kerncijfers.distribution.1"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/3500-onderwijsuitgaven--kerncijfers"/>
+    <adms:identifier rdf:resource="https://data.overheid.nl/dataset/c501398a-b9b9-43a6-80b4-4af730bd1733"/>
+    <dct:title xml:lang="nl">Onderwijsuitgaven; kerncijfers</dct:title>
+    <donl:sourceCatalog rdf:resource="https://opendata.cbs.nl/ODataCatalog/"/>
+    <adms:identifier rdf:resource="https://data.overheid.nl/data/dataset/c501398a-b9b9-43a6-80b4-4af730bd1733"/>
+    <dcat:theme rdf:resource="http://standaarden.overheid.nl/owms/terms/Onderwijs_en_wetenschap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/file-type/ATOM">
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Format"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.overheid.nl/status/beschikbaar">
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#DatasetStatus"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/frequency/NEVER">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Frequency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.overheid.nl/dataset/c501398a-b9b9-43a6-80b4-4af730bd1733">
+    <dct:title xml:lang="nl">3500-onderwijsuitgaven--kerncijfers</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2020-04-02T16:02:00.545521</dct:issued>
+    <adms:status xml:lang="nl">:updated</adms:status>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/3500-onderwijsuitgaven--kerncijfers.rdf"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+    <dct:description xml:lang="nl">Deze tabel geeft een overzicht van de Nederlandse uitgaven aan regulier 
+onderwijs. De overheidsuitgaven aan onderwijs zijn verdeeld in de uitgaven 
+aan onderwijsinstellingen en de uitgaven aan huishoudens (studenten en/of 
+ouders), bedrijven en non-profit instellingen. Daarnaast worden de 
+onderwijsuitgaven van private partijen (huishoudens, bedrijven, non-profit 
+instellingen en organisaties in het buitenland) aan onderwijsinstellingen 
+getoond. Alleen huishoudens hebben ook onderwijsuitgaven buiten de 
+onderwijsinstellingen om. De gepresenteerde cijfers zijn berekend volgens 
+door de OESO (Organisatie voor Economische Samenwerking en Ontwikkeling) 
+gestandaardiseerde definities.
+
+Gegevens beschikbaar vanaf: 1995
+Frequentie: stopgezet
+
+Status van de cijfers: 
+De uitkomsten van 1995 tot en met 2007 zijn definitief, de uitkomsten voor 
+2008 zijn voorlopig.
+
+Wijzigingen per 7 december 2009:
+Er zijn gegevens over 2008 toegevoegd en bijstellingen voor 2007 
+doorgevoerd.
+
+Wanneer komen er nieuwe cijfers?
+Niet van toepassing</dct:description>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/c501398a-b9b9-43a6-80b4-4af730bd1733.rdf"/>
+    <foaf:primaryTopic rdf:resource="https://data.overheid.nl/dataset/3500-onderwijsuitgaven--kerncijfers"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2022-10-05T07:36:24.576410</dct:modified>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset.3500-onderwijsuitgaven--kerncijfers.distribution.1">
+    <dct:title xml:lang="nl">API</dct:title>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Distribution"/>
+    <dcat:accessURL rdf:resource="https://opendata.cbs.nl/statline/#/CBS/nl/dataset/70901ned/table"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+    <dct:description xml:lang="nl">Kerngegevens onderwijsuitgaven
+Per deelnemer, percentage bbp, per onderwijssector</dct:description>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/c501398a-b9b9-43a6-80b4-4af730bd1733.rdf"/>
+    <dcat:downloadURL rdf:resource="https://opendata.cbs.nl/ODataApi/OData/70901ned"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/3500-onderwijsuitgaven--kerncijfers.rdf"/>
+    <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.nl"/>
+    <donl:distributionType rdf:resource="https://data.overheid.nl/distributiontype/webservice"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2022-10-05T07:36:25.014211</dct:issued>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset.3500-onderwijsuitgaven--kerncijfers.contactPoint">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Kind"/>
+    <v:fn xml:lang="nl">Centraal Bureau voor de Statistiek</v:fn>
+    <v:email rdf:resource="mailto:infoservice@cbs.nl"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset.3500-onderwijsuitgaven--kerncijfers.distribution.2">
+    <dcat:downloadURL rdf:resource="https://opendata.cbs.nl/ODataFeed/OData/70901ned"/>
+    <dct:description xml:lang="nl">Kerngegevens onderwijsuitgaven
+Per deelnemer, percentage bbp, per onderwijssector</dct:description>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/3500-onderwijsuitgaven--kerncijfers.rdf"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Distribution"/>
+    <dct:title xml:lang="nl">Feed</dct:title>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ATOM"/>
+    <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.nl"/>
+    <dcat:accessURL rdf:resource="https://opendata.cbs.nl/statline/#/CBS/nl/dataset/70901ned/table"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2022-10-05T07:36:25.014217</dct:issued>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/c501398a-b9b9-43a6-80b4-4af730bd1733.rdf"/>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/atom+xml"/>
+    <donl:distributionType rdf:resource="https://data.overheid.nl/distributiontype/webservice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://opendata.cbs.nl/ODataCatalog/">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.iana.org/assignments/media-types/application/json">
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Mediatype"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.iana.org/assignments/media-types/application/atom+xml">
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Mediatype"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://standaarden.overheid.nl/owms/terms/Onderwijs_en_wetenschap">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="http://standaarden.overheid.nl/owms/terms/Thema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by/4.0/deed.nl">
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#License"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#OpenbaarheidsNiveau"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.overheid.nl/distributiontype/webservice">
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#DistributionType"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/NLD">
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Language"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek">
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Organization"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON">
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Format"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+  </rdf:Description>
+</rdf:RDF>
